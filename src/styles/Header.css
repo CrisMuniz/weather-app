@@ -1,0 +1,10 @@
+.header {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.headerTitle {
+    font-size: 25px;
+    font-family:'Lato', sans-serif;
+}
