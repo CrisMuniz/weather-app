@@ -1,6 +1,9 @@
-import { useState } from 'react';
+import  { useState } from 'react';
 
-function SearchCity ( ) {
+
+
+// eslint-disable-next-line react/prop-types
+const SearchCity = ({ newLocation }) => {
   const [city, setCity] = useState("");
 
   const handleSearchCity = (ev) => {
@@ -8,14 +11,18 @@ function SearchCity ( ) {
   }
   const onSubmit = (ev) => {
     ev.preventDefault();
-    //console.log({city})
-    if(city === "" || !city) return;
+    console.log({city});
+    if(city === "" || !city){
+    return ;}
+    else {
+      newLocation(city);
+    }
   }
     return (
         <div className='searchCity'>
         <form className='searchCityForm' onSubmit={onSubmit} >
-          <input className="searchCityInput" type="text" name="" id="" 
-          value={city} onChange={handleSearchCity} placeholder='  Entra tu localización...' />
+          <input className="searchCityInput" type="text" name="searchCityInput" id="searchCityInput"
+          value={city} onChange={handleSearchCity} placeholder=' Entra tu localización...' />
           <button className='searchCityBtn' type='submit'>Buscar</button>
         </form>
       </div>

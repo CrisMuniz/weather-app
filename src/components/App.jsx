@@ -2,7 +2,8 @@
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import '../styles/App.css'
-import SearchCity from './SearchCity'
+import WeatherPanel from './WeatherPanel';
+
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
         <h2 className='headerTitle'>Predicción Meteorológica</h2>
       </header>
       <main>
-     <SearchCity/>
+     <WeatherPanel/>
      </main>
     </div>
       {/* <div> */}
