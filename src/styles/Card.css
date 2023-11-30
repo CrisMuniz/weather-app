@@ -1,0 +1,83 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+}
+.img {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/fondoweather.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.block {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    color:#E39EC1;
+    font-family: 'Athiti', sans-serif;
+    font-size: 25px;
+    gap:8px
+
+}
+.icon {
+    width: 25%;
+}
+.defDescription {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.section2 {
+    background: rgb(45,148,148);
+    background: linear-gradient(0deg, rgba(45,148,148,1) 0%, rgba(16,190,212,1) 100%);
+    width: 300px;
+
+}
+.sect2Container1 {
+    padding-left: 10px;
+    font-size: 18px;
+    color:#77567A;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family:'Athiti', sans-serif ;
+
+}
+
+.sect2Container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.forecast1 {
+    padding-top: 10px;
+    color:#77567A;
+    font-family:'Athiti', sans-serif  ;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.forecastDesc {
+    font-size: 20px;
+}

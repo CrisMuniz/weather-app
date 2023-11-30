@@ -26,6 +26,7 @@ const SearchCity = ({ newLocation }) => {
           <button className='searchCityBtn' type='submit'>Buscar</button>
         </form>
       </div>
+    
     )
 }
 export default SearchCity;
