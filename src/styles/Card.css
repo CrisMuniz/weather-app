@@ -43,6 +43,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 10px;
+    font-family:'Lato', sans-serif ;
 }
 .section2 {
     background: rgb(45,148,148);
@@ -80,4 +81,37 @@
 }
 .forecastDesc {
     font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        flex-direction: row;
+
+    }
+    .img {
+        height: 400px;
+        width: 350px;
+    }
+    .block {
+        height: 400px;
+        width: 350px;
+        gap: 15px;
+    }
+    .section2 {
+        height: 400px;
+        width: 350px;
+        margin-top: 30px;
+        padding-top: 10px;
+    }
+    .sect2Container1 {
+        gap:10px;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .forecast1 {
+        font-size: 20px;
+    }
+    .forecastDesc {
+        font-size: 22px;
+    }
 }

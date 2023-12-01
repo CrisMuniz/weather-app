@@ -1,6 +1,8 @@
+/* eslint-disable react/prop-types */
 import Spinner from "./Spinner";
 
-// eslint-disable-next-line react/prop-types
+
+
 const Card = ({showData, loadingData , weather, forecast}) => {
 
     let today = new Date();
@@ -86,7 +88,7 @@ const Card = ({showData, loadingData , weather, forecast}) => {
     } else {
         return(
             <>
-            <h2 className="defDescription">Sin datos</h2>
+            <h2 className="defDescription">Introduzca una ciudad</h2>
             </>
         )
     }

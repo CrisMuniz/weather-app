@@ -1,5 +1,5 @@
 .header {
-    padding-top: 20px;
+    padding-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -7,4 +7,14 @@
 .headerTitle {
     font-size: 25px;
     font-family:'Lato', sans-serif;
+}
+@media screen and (min-width: 768px) {
+    .headerTitle {
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .headerTitle {
+        font-size: 50px;
+    }
 }

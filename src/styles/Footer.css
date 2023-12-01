@@ -6,5 +6,20 @@
     color: #77567A;
     position:fixed;
     bottom:0%;
-    left: 35%;
+    left: 36%;
 }
+@media screen and (min-width: 768px){
+   .footer {
+    left: 44%;
+   }
+}
+@media screen and (min-width: 1024px){
+    .footer {
+     left: 46%;
+    }
+ }
+ @media screen and (min-width: 1440px){
+    .footer {
+     left: 47%;
+    }
+ }
