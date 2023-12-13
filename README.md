@@ -1,8 +1,23 @@
-# React + Vite
+# :sunny: Aplicación Meteorológica.
+Este proyecto consiste en una aplicación donde podemos introducir una ciudad y nos mostrará la predicción de el estado del tiempo y también de las siguientes horas.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# :black_nib: Pre-requisitos.
+Para este proyecto se necesit VS Code y tener instalado Vite.
 
-Currently, two official plugins are available:
+# :clipboard: Instalación.
+- Clonar este repo en tu ordenador.
+- Abrir el proyecto en VS Code.
+- Arrancar el proyecto:
+  1. Para ello necesitas realizar ```npm create vite@latest```.
+  2. Después te pedirá introducir con qué template quieres trabajar (En mi caso fué React).
+  3. También te pedirá qué tipo de lenguaje de programación quieres usar (En mi caso JSX).
+- Una vez tienes estos pasos realizados ya puedes realizar ```npm install```.
+- Para poder abrir un puerto en local  con tu proyecto ```npm run dev```.
+  
+# :hammer: Construido con :
+- React.
+- Vite.
+- JSX.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## :woman: Autor.
+Cris Muñiz.
