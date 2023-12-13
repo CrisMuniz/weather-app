@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import Spinner from "./Spinner";
+import cardImg from '../images/fondoweather.webp';
 
 
 
@@ -24,7 +25,8 @@ const Card = ({showData, loadingData , weather, forecast}) => {
 
     if(loadingData) {
         return <Spinner/>
-    }
+
+    } 
     if(showData === true){
         url = "https://openweathermap.org/img/w/";
         iconUrl = url + weather.weather[0].icon + ".png";
@@ -42,7 +44,7 @@ const Card = ({showData, loadingData , weather, forecast}) => {
       <div className="container">
         <div className="card">
       <section className="section1">
-        <img className="img"  alt="" />
+        <img className="img" src={cardImg} alt="" />
         <div className="block">
         <h3 className="title1">{weather.name}</h3>
         <p className="parr1">{date}</p>
@@ -88,7 +90,9 @@ const Card = ({showData, loadingData , weather, forecast}) => {
     } else {
         return(
             <>
-            <h2 className="defDescription">Introduzca una ciudad</h2>
+            <div >
+            <h2 className="defDescription">{showData === false ? 'No hay datos' :'' }</h2>
+            </div>
             </>
         )
     }

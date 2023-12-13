@@ -5,12 +5,32 @@
     justify-content: center;
 }
 .headerTitle {
-    font-size: 25px;
+    font-size: 22px;
     font-family:'Lato', sans-serif;
+}
+.headerImg {
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.hImg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
 }
 @media screen and (min-width: 768px) {
     .headerTitle {
         font-size: 40px;
+    }
+    .headerImg {
+        width: 50px;
+    }
+    .hImg {
+        width: 25px;
+        height: 25px;
     }
 }
 @media screen and (min-width: 1024px) {

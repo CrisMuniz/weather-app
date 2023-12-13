@@ -14,7 +14,7 @@ const WeatherPanel = () => {
     const [forecast, setForecast] = useState([]);
 
     const [loading, setLoading] = useState(false);
-    const [showCard, setShowCard] = useState(false);
+    const [showCard, setShowCard] = useState();
     const [location, setLocation] = useState("");
 
     const getLocation = async(loc) => {
@@ -27,6 +27,7 @@ const WeatherPanel = () => {
         .then((response) => {
             if(!response.ok) throw {response}
             return response.json();
+
         })
         .then((weatherData) => {
             console.log(weatherData)

@@ -11,14 +11,15 @@ const SearchCity = ({ newLocation }) => {
   }
   const onSubmit = (ev) => {
     ev.preventDefault();
-    console.log({city});
     if(city === "" || !city){
-    return ;}
+    return 
+     ;}
     else {
       newLocation(city);
     }
   }
     return (
+      <>
         <div className='searchCity'>
         <form className='searchCityForm' onSubmit={onSubmit} >
           <input className="searchCityInput" type="text" name="searchCityInput" id="searchCityInput"
@@ -27,6 +28,7 @@ const SearchCity = ({ newLocation }) => {
         </form>
       </div>
     
+     </>
     )
 }
 export default SearchCity;
