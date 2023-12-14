@@ -14,7 +14,7 @@ Para este proyecto se necesit VS Code y tener instalado Vite.
 - Una vez tienes estos pasos realizados ya puedes realizar ```npm install```.
 - Para poder abrir un puerto en local  con tu proyecto ```npm run dev```.
   
-# :hammer: Construido con :
+# :wrench: Construido con :
 - React.
 - Vite.
 - JSX.
